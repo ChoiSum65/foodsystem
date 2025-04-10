@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: demo0517
+  datasource:
+    url: jdbc:mysql://localhost:3306/demo0517?useunicode=true&characterEncoding=utf8&autoReconnect=true&useSSL=false&serverTimezone=GMT%2B8
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
+server:
+  port: 8080
